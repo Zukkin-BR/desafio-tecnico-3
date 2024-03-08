@@ -5,6 +5,7 @@ Você deve escrever um script PHP que seja capaz de ordenar grandes conjuntos de
 ## Requisitos:
 
 - O script deve ser capaz de lidar com arquivos de entrada de tamanho arbitrário, potencialmente maiores do que a memória disponível no servidor.
+- O script deve conter um algoritmo de ordenação próprio, não utilizando assim funções de ordenação padrões.
 - O algoritmo de ordenação deve ser eficiente em termos de tempo de execução e uso de recursos.
 - O script deve ser capaz de ordenar os dados em ordem ascendente ou descendente, conforme especificado.
 - O script deve ser bem documentado e fácil de entender para outros desenvolvedores.
