@@ -1,7 +1,7 @@
 <?php
 
 // Número total de elementos no arquivo de entrada
-$totalNumbers = 1000000; // 1 milhão de números
+$totalNumbers = 1000000000; // 1 bilhão de números
 
 // Abre o arquivo para escrita
 $filename = 'input.txt';
