@@ -1,15 +1,14 @@
 <?php
 
-// Número total de elementos no arquivo de entrada
-$totalNumbers = 1000000000; // 1 bilhão de números
+$totalNumbers = 100000; // 100 mil números
 
 // Abre o arquivo para escrita
 $filename = 'input.txt';
 $file = fopen($filename, 'w');
 
-// Gera e escreve números aleatórios no arquivo
+// Gera e escreve números aleatórios de 10 dígitos no arquivo
 for ($i = 0; $i < $totalNumbers; $i++) {
-    $number = mt_rand(1, PHP_INT_MAX); // Gera um número aleatório entre 1 e o maior inteiro suportado pelo PHP
+    $number = mt_rand(1000000000, 9999999999); // Gera um número aleatório de 10 dígitos
     fwrite($file, $number . PHP_EOL); // Escreve o número no arquivo
 }
 
